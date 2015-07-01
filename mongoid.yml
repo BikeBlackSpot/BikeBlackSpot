@@ -1,0 +1,10 @@
+development:
+  sessions:
+    default:
+      database: greenhouse_watchman
+      hosts:
+        - localhost:27017
+    logging:
+      database: bikespot_logging
+      hosts:
+        - localhost:27020

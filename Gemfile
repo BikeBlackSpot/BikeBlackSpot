@@ -17,6 +17,8 @@ group :development, :test do
   gem 'byebug'
   gem 'web-console'
   gem 'spring'
+  gem 'rspec-rails'
+  gem 'bundler-audit'
   #
 
 end
