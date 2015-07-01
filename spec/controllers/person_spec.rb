@@ -1,5 +1,3 @@
-require 'mongoid'
-require 'json'
 require_relative '../../app/controllers/people_controller'
 
 describe 'PeopleController' do

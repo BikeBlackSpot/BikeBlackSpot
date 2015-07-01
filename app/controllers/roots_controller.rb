@@ -1,4 +1,4 @@
-class RootsController < ApplicationController
+class RootsController 
   DEFAULT_MESSAGE = 'Hello world!'
   def initialize
   end

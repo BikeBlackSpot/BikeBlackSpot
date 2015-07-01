@@ -1,8 +1,6 @@
-class MapsController < ApplicationController
+class MapsController 
   DEFAULT_MESSAGE ='Welcome to our lovely map'
   def initialize
-
-
   end
 
   def get(params)

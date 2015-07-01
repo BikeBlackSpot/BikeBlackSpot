@@ -1,5 +1,3 @@
-require 'mongoid'
-require 'json'
 require_relative '../../app/controllers/roots_controller'
 
 describe 'RootsController' do

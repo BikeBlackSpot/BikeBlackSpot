@@ -1,4 +1,4 @@
-class ReportsController < ApplicationController
+class ReportsController 
   DEFAULT_MESSAGE = 'Submit new report'
   def initialize
   end
