@@ -1,6 +1,10 @@
-class MapsController 
+class MapsController < ApplicationController
   DEFAULT_MESSAGE ='Welcome to our lovely map'
   def initialize
+  end
+
+
+  def show_map
   end
 
   def get(params)

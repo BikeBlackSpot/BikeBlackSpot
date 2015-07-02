@@ -1,8 +1,10 @@
-class PeopleController
+class PeopleController < ApplicationController
   DEFAULT_MESSAGE = 'welcome to our page to get email giving a persons details'
   def initialize
   end
 
+  def show_person
+  end
   def get(params)
     # log = Logger.new($stdout)
     # log.warn(params[:title])

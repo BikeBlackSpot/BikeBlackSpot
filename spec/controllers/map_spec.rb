@@ -1,3 +1,4 @@
+require 'spec_helper'
 require_relative '../../app/controllers/maps_controller'
 
 describe 'MapsController' do

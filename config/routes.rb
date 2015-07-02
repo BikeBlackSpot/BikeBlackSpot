@@ -3,6 +3,9 @@ Rails.application.routes.draw do
   # See how all your routes lay out with "rake routes".
 
   get '/report', to: 'reports#createGet'
+  get '/map', to: 'maps#show_map'
+  get '/person', to: 'people#show_person'
+  get '/', to: 'application#show_welcome'
   # You can have the root of your site routed with "root"
   # root 'welcome#index'
 
