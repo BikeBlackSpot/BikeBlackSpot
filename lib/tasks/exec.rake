@@ -9,7 +9,7 @@ task :run do
 end
 
 desc 'Build then run'
-# task :exec => [:build,db:migrate,:test,:run]
+task :exec => [Rake::Task[:build],Rake::Task[:test], Rake::Task[:run]]
   # do
     # sh('rake build migrate test run')
   # end

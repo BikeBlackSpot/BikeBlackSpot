@@ -1,4 +1,4 @@
-class ReportsController 
+class ReportsController < ApplicationController
   DEFAULT_MESSAGE = 'Submit new report'
   def initialize
   end
@@ -6,6 +6,8 @@ class ReportsController
   def get(_params)
   end
 
+  def createGet
+  end
   def post(params)
     @uuid = params[:uuid]
     @lat = params[:lat]
