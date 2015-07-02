@@ -1,3 +1,6 @@
+require 'test_helper'
+require_relative '../../app/controllers/application_controller'
+
 require_relative '../../app/controllers/reports_controller'
 
 describe 'ReportsController' do
